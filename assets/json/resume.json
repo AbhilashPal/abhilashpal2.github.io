@@ -1,157 +1,197 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Abhilash Pal",
+    "label": "AI Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "abhilashpal8@gmail.com",
+    "phone": "(+49) 015737310083",
+    "url": "https://abhilash.github.io/",
+    "summary": "An adept researcher in NLP and deep learning, with a track record of leveraging advanced models for diverse applications in industry and academia. Abhilash excels in leveraging cutting-edge techniques and models to tackle complex challenges in NLP and deep learning, showcasing a keen dedication to advancing the field's frontiers.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Schröfelhofstraße 18A",
+      "postalCode": "81375",
+      "city": "München",
+      "countryCode": "DE",
+      "region": "Bayern"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "AbhilashTensor",
+        "url": "https://twitter.com/AbhilashTensor"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Industrieanlagen-Betriebsgesellschaft mbH(iABG)",
+      "position": "Werkstudent - Robust Deep Learning/NLP",
+      "url": "https://www.iabg.de/en/",
+      "startDate": "2023-06-01",
+      "endDate": "2024-05-31",
+      "summary": "Working on utilizing LLMs for different use cases including code generation and LLM Evaluation. Worked on a team responsible for building and maintaining a coding assistant for internal employees. Extended the idea for a general chatbot. Worked on leveraging and comparing different inference engines, for the best token throughtput given hardware limitations.",
+      "highlights": ["LLM Inference", "LLM Evaluation", "Gradio"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Microsoft",
+      "position": "Werkstudent - Applied Scientist in Speech Recognition",
+      "url": "https://www.microsoft.com/de-de",
+      "startDate": "2021-10-01",
+      "endDate": "2023-03-31",
+      "summary": "Worked on Automatic Speech Recognition, Sign Language Recognition, and associated tasks to improve the Azure ML Services provided by Microsoft. Contributed to adapting internal testing tools in response to customer demand, recreating their problems, understanding their reasons, and providing effective remedies. Worked on Sign Language Detection and Translation tasks. Helped cluster videos in a large corpus based on signers, to detect signer overlap in existing test-train splits and prevent the same in new splits we created. Helped summarize our findings in two research papers.",
+      "highlights": ["Speech Recognition", "Sign Language Detection", "ASR"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Technische Universität München",
+      "location": "München, Deutschland",
+      "url": "https://www.tum.de/",
+      "area": "Informatics",
+      "studyType": "MSc",
+      "startDate": "2020-10-01",
+      "endDate": "2024-09-30",
+      "score": "2.1",
+      "courses": ["Natural Language Processing", "Introduction to Deep Learning", "Machine Learning", "Introduction to Quantum Computing", "Fundamentals of Aritifical Intelligence"]
+    },
+    {
+      "institution": "SRM Institute of Science and Technology",
+      "location": "Chennai, India",
+      "url": "https://www.srmist.edu.in/",
+      "area": "Computer Science",
+      "studyType": "BTech",
+      "startDate": "2016-07-01",
+      "endDate": "2020-03-31",
+      "score": "1.4",
+      "courses": ["NLP", "Automata Theory", "Machine Learning", "Compiler Design", "DBMS", "Data Structures", "Object Oriented Programming in C++"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Submission to WMT shared task on sign language translation 2022 was ranked number #1 in terms of BLEU score",
+      "date": "2023-03-29",
+      "awarder": "WMT shared task on sign language translation : EMNLP 2022",
+      "url": "https://aclanthology.org/2022.wmt-1.pdf#page=790",
+      "summary": "Our submitted model at the WMT 2022 shared task on sign language translation (i.e video to text), which beat all others and emerged as the leading sign language translation system."
+    },
+    {
+      "title": "First Prize at IET Hackathon 2019",
+      "date": "2019-03-01",
+      "awarder": "IET on Campus, SRM University KTR",
+      "url": "",
+      "summary": "Worked on a cross platform incentivised parking solution, where city dwellers can rent out free parking spots in their homes or apartments for a hourly fee. Works with RFID authentication and numberplate detection."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
+      "date": "2019-05-01",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/KQXGVH34ZFUB",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Data Science for Engineers",
+      "date": "2019-04-01",
+      "issuer": "NPTEL",
+      "url": "https://nptel.ac.in/noc/E_Certificate/noc19-cs13/NPTEL19CS13S21172191191092886.jpg",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Deep Learning Specialization",
+      "date": "2019-01-01",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/QPFU79QXZ8ZU",
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Machine Learning",
+      "date": "2017-11-01",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/ULQNZXYWUENZ",
       "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Clean Text and Full-Body Transformer: Microsoft's Submission to the WMT22 Shared Task on Sign Language Translation",
+      "publisher": "EMNLP 2022 SEVENTH CONFERENCE ON MACHINE TRANSLATION (WMT22)",
+      "releaseDate": "08.12.2022",
+      "url": "https://www.statmt.org/wmt22/pdf/2022.wmt-1.93.pdf",
+      "summary": "This paper describes Microsoft's submission to the first shared task on sign language translation at WMT 2022, a public competition tackling sign language to spoken language translation for Swiss German sign language."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "On the Importance of Signer Overlap for Sign Language Detection",
+      "publisher": "Arxiv",
+      "releaseDate": "19.03.2023",
+      "url": "https://arxiv.org/pdf/2303.10782",
+      "summary": "Sign language detection, identifying if someone is signing or not, is becoming crucially important for its applications in remote conferencing software and for selecting useful sign data for training sign language recognition or translation tasks. We argue that the current benchmark data sets for sign language detection estimate overly positive results that do not generalize well due to signer overlap between train and test partitions. We quantify this with a detailed analysis of the effect of signer overlap on current sign detection benchmark data sets. Comparing accuracy with and without overlap on the DGS corpus and Signing in the Wild, we observed a relative decrease in accuracy of 4.17% and 6.27%, respectively. Furthermore, we propose new data set partitions that are free of overlap and allow for more realistic performance assessment. We hope this work will contribute to improving the accuracy and generalization of sign language detection systems."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Musenet : Music Generation using Abstractive and Generative Methods",
+      "publisher": "International Journal of Innovative Technology and Exploring Engineering",
+      "releaseDate": "01.04.2020",
+      "url": "http://www.ijitee.org/wp-content/uploads/papers/v9i6/F3580049620.pdf",
+      "summary": "Humans have been entertained by music for millennia. For ages it has been treated as an art form which requires a lot of imagination, creativity and accumulation of feelings and emotions. Recent trends in the field of Artificial Intelligence have been getting traction and Researchers have been developing and generating rudimentary forms of music through the use of AI. Our goal is to generate novel music, which will be non-repetitive and enjoyable. We aim to utilize a couple of Machine Learning models for the same. Given a seed bar of music, our first Discriminatory network consisting of Support Vector Machines and Neural Nets will choose a note/chord to direct the next bar. Based on this chord or note another network, a Generative Net consisting of Generative Pretrained Transformers(GPT2) and LSTMs will generate the entire bar of music. Our two fold method is novel and our aim is to make the generation method as similar to music composition in reality as possible. This in turn results in better concordant music. Machine generated music will be copyright free and can be generated conditioned on a few parameters for a given use.The paper presents several use cases and while the utilization will be for a niche audience, if a easy to use application can be built, almost anyone will be able to use deep learning to generate concordant music based on their needs."
+    },
+    {
+      "name": "ConciseNet: An End to End Abstractive Model for Topic Generation",
+      "publisher": "International Journal of Engineering Applied Science and Technology",
+      "releaseDate": "05.09.2019",
+      "url": "https://www.ijeast.com/papers/197-202,Tesma404,IJEAST.pdf",
+      "summary": "Recent approaches in Title generation using neural approaches have relied on an end to end deep learning system based on the sequence to sequence model. Such approaches have yielded good results but remain constricted in use due to a fixed size input which is often very small compared to the text being used or might take huge compute power to train and use if input size is increased. Our approach amalgamates an extractive and abstractive approach to get the best of both worlds using a textrank algorithm for the extractive part and a reasonably small seq2seq architecture as the abstractive part. Testing on the Amazon Fine Food Review dataset, our approach gives good results using less compute power.We utilize the prevailing metrics of ROUGE and Cosine Similarity. Manual checking shows that the majority of our generated topics are grammatically correct."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Informatics",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Machine Learning",
+        "Natural Language Processing",
+        "Conversational AI",
+        "Speech Recognition",
+        "Utilizing LLMs"
+      ]
+    },
+    {
+      "name": "Deep Learning Tools",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Pytorch",
+        "Scikit learn",
+        "Langchain",
+        "vLLM",
+        "Langchain",
+        "BERTopic"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python",
+        "C++",
+        "C",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "OS",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Linux",
+        "Windows"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Bengali",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -159,19 +199,32 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "Basic",
+      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Music",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Bengali Folk",
+        "Dotara",
+        "Vocal Music",
+        "Classical Guitar",
+        "Flamenco",
+        "Indian Classical Music"
+      ]
+    },
+    {
+      "name": "Outdoors",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Hiking",
+        "Biking"
       ]
     }
   ],
@@ -189,12 +242,20 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Interdisciplinary Project - Developing multilingual NLP solutions to generate questions for a given text [Entwicklung mehrsprachiger NLP Lösungen zur Generierung von Fragen zu gegebenen Texten]",
+      "summary": "Worked on creating an End-to-End model to generate questions for a given text. Experimented with state of the art Transformer models like T5, Prophetnet, GPT2, alongside non neural methods.",
+      "highlights": ["AWS Sagemaker", "LLM Finetuning"],
+      "startDate": "01.04.2021",
+      "endDate": "31.09.2021",
+      "url": "https://convaise.com/en/"
+    },
+    {
+      "name": "Blissify.ai",
+      "summary": "A basic recommendation system based on the user's mood using OpenCV and Deep Learning for detecting emotions from the face of the user and then recommending personalized songs/poems/movies etc. The output page also contains the image of the user with Style Transfer applied to it based on the mood detected with paintings of great artists who have portrayed similar emotions through their art. Created as a part of Mozofest 2018 Hackathon by SRMkzilla. Project shortlisted amongst top 16 teams to participate in the hackathon among around 400 teams.",
+      "highlights": ["Style Transfer", "Keras"],
+      "startDate": "01.04.2021",
+      "endDate": "31.09.2021",
+      "url": "https://www.youtube.com/watch?v=Q_uBWfOltvw"
     }
   ]
 }
